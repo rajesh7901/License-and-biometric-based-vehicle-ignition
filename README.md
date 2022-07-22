@@ -1,5 +1,5 @@
 # License-and-biometric-based-vehicle-ignition
-Start the vehicle by verifying the driving license , biometrics and alcohol contents
+//Start the vehicle by verifying the driving license , biometrics and alcohol contents
 
 #include <Wire.h> 
 #include <LiquidCrystal_I2C.h>                  //LCD Display library
