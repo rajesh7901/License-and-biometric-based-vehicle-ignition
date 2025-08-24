@@ -24,6 +24,23 @@ The system verifies the **driving license**, **biometric fingerprint**, and chec
 
 ---
 
+## 📸 Prototype Stages
+1. **Reading License (RFID)**  
+   ![Reading License](images/Reading_license_data.jpg)
+
+2. **License Verified**  
+   ![License Verified](images/License(RFID)_verified.jpg)
+
+3. **Capturing Fingerprint**  
+   ![Capturing Fingerprint](images/Capturing_fingerprint.jpg)
+
+4. **Alcohol Detected (Ignition Blocked)**  
+   ![Alcohol Detected](images/Alcohol_detected_case.jpg)
+
+5. **No Alcohol Detected (Ignition Allowed)**  
+   ![No Alcohol Detected](images/No_alcohol_detected.jpg)
+
+---
 
 ## System Flow
 ```mermaid
