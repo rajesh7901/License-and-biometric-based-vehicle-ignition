@@ -1,15 +1,10 @@
-
-// License-and-biometric-based-vehicle-ignition
-// Start the vehicle by verifying the driving license , biometrics and alcohol contents
-=======
 # License-and-biometric-based-vehicle-ignition
 //Start the vehicle by verifying the driving license , biometrics and alcohol contents
-
 
 #include <Wire.h> 
 #include <LiquidCrystal_I2C.h>                  //LCD Display library
 LiquidCrystal_I2C lcd(0x27, 20,4);
- 
+//**********
 #include <SPI.h>
 #include <MFRC522.h>                        //RFID library
 #define RST_PIN         5                  // Configurable, see typical pin layout above
@@ -57,8 +52,8 @@ void setup()
 
                                //RFID...
                                
-  SPI.begin();                                                   // Init SPI bus
-  mfrc522.PCD_Init();                                           // Init MFRC522 card
+  SPI.begin();                                                  // Init SPI bus
+  mfrc522.PCD_Init();                                              // Init MFRC522 card
                             // Display...
                             
   lcd.begin();
