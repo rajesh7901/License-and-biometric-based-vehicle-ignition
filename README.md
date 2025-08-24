@@ -39,3 +39,25 @@ flowchart TD
     D -->|Alcohol Detected| Z[Access Denied]
 
     Z --> F[System Logs Event]
+
+1. **Reading License Data**  
+   ![Reading License Data](images/Reading_license_data.jpg)
+
+2. **License Verified (RFID)**  
+   ![License Verified](images/License(RFID)_verified.jpg)
+
+3. **Capturing Fingerprint**  
+   ![Capturing Fingerprint](images/Capturing_fingerprint.jpg)
+
+4. **No Alcohol Detected (Ignition Allowed)**  
+   ![No Alcohol Detected](images/No_alcohol_detected.jpg)
+
+5. **Alcohol Detected (Ignition Blocked)**  
+   ![Alcohol Detected](images/Alcohol_detected_case.jpg)
+
+---
+
+## 📂 Files in Repo
+- `LicenseAndBiometricIgnition.ino` → Arduino code  
+- `README.md` → Project documentation  
+- `images/` → Prototype images for each stage
